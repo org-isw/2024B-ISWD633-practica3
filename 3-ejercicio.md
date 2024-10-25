@@ -5,8 +5,8 @@
 # COMPLETAR CON EL COMANDO COMANDO
 
 ### Para que persista la información es necesario conocer en dónde mysql almacena la información.
-# COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/)
-En el esquema del ejercicio la carpeta contenedor (a) es (COMPLETAR CON LA RUTA)
+# COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
+En el esquema del ejercicio ruta del contenedor (a) es (COMPLETAR CON LA RUTA)<br>
 Ruta carpeta host: .../ejercicio3/db
 
 ### ¿Qué contiene la carpeta db del host?
