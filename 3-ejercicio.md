@@ -6,7 +6,8 @@
 
 ### Para que persista la información es necesario conocer en dónde mysql almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
-En el esquema del ejercicio ruta del contenedor (a) es (COMPLETAR CON LA RUTA)<br>
+En el esquema del ejercicio carpeta del contenedor (a) es (COMPLETAR CON LA RUTA)
+
 Ruta carpeta host: .../ejercicio3/db
 
 ### ¿Qué contiene la carpeta db del host?
@@ -20,7 +21,7 @@ Ruta carpeta host: .../ejercicio3/db
 
 ### Para que persista la información es necesario conocer en dónde wordpress almacena la información.
 # COMPLETAR LA SIGUIENTE ORACIÓN. REVISAR LA DOCUMENTACIÓN DE LA IMAGEN EN https://hub.docker.com/
-En el esquema del ejercicio la carpeta contenedor (b) es (COMPLETAR CON LA RUTA)
+En el esquema del ejercicio la carpeta del contenedor (b) es (COMPLETAR CON LA RUTA)
 
 Ruta carpeta host: .../ejercicio3/www
 
