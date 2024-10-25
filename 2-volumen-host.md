@@ -4,8 +4,8 @@ Un volumen host (o bind mount) es un tipo de volumen donde se monta un directori
 ```
 docker run -d --name <nombre contenedor> -v <ruta carpeta host>:<ruta carpeta contenedor> <imagen> 
 ```
-
-### Crear un volumen tipo host con la imagen nginx:alpine, mapear todos por puertos, para la ruta carpeta host: directorio en donde se encuentra la carpeta html en tu computador y para la ruta carpeta contenedor: /usr/share/nginx/html esta ruta se obtiene al revisar la documentación
+### En tu computador crear una carpeta llamada nginx y dentro de esta carpeta crea otra llamada html. 
+### Crear un volumen tipo host con la imagen nginx:alpine, mapear todos por puertos, para la ruta carpeta host colocar el directorio en donde se encuentra la carpeta html en tu computador y para la ruta carpeta contenedor: /usr/share/nginx/html (esta ruta se obtiene al revisar la documentación de la imagen)
 ![Volúmenes](img/volumen-host.PNG)
 # COMPLETAR CON EL COMANDO
 
@@ -15,7 +15,7 @@ docker run -d --name <nombre contenedor> -v <ruta carpeta host>:<ruta carpeta co
 ### ¿Qué pasa con el archivo index.html del contenedor?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
-### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de nginx/html
+### Ir a https://html5up.net/ y descargar un template gratuito, descomprirlo dentro de tu computador en la carpeta html
 ### ¿Qué sucede al ingresar al servidor de nginx?
 # COMPLETAR CON LA RESPUESTA A LA PREGUNTA
 
