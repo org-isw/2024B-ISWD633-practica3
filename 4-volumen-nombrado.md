@@ -57,9 +57,9 @@ docker volume create vol-drupal-modules
 docker volume create vol-drupal-profiles 
 docker volume create vol-drupal-sites
 
-### Crear el contenedor server-drupal vinculado a la red, usar la imagen drupal, y vincularlo a los volúmenes nombrados
+### Crear el contenedor server-drupal vinculado a la red, usar la imagen drupal, y vincularlo a los volúmenes nombrados y mapear el puerto 80
 ```
-docker run -d --name server-drupal --network net-wp -v vol-drupal-files:/var/www/html/sites/default/files -v vol-drupal-modules:/var/www/html/modules -v vol-drupal-profiles:/var/www/html/profiles -v vol-drupal-sites:/var/www/html/sites drupal:latest
+docker run -d --name server-drupal --publish published=9700,target=80 -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> -v <nombre volumen>:<ruta contenedor> --network net-drupal drupal
 ```
 
 ### Eliminar un volumen específico
